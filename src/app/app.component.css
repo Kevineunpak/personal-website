@@ -1,4 +1,10 @@
 .hidden {
     display: none; /* Completely hides the element */
-  }
+}
+
+body, html {
+  background-color: #000; /* Black background for the entire page */
+  color: #ffffff; /* White text for readability */
+  font-family: Arial, sans-serif;
+}
   

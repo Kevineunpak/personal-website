@@ -1,12 +1,41 @@
 <header>
-    <div class="header-left">
-      <!-- Make 'Kevin Pak' clickable and link it to the home page -->
-      <h1><a routerLink="/">Kevin Pak</a></h1>
+  <div class="header-left">
+    <!-- Make 'Kevin Pak' clickable and link it to the home page -->
+    <h1>
+      <div class="name">
+        <a routerLink="/">
+          <img src="assets/Kevin-Pak.png" alt="Kevin Pak">
+        </a>
+      </div>
+    </h1>
+  </div>
+  <div class="header-right">
+    <!-- About Tab -->
+    <div class="header-link about-link">
+      <a routerLink="/about" title="About">
+        <div class="image-wrapper">
+          <img src="assets/about.png" alt="About">
+        </div>
+        <span>About</span>
+      </a>
     </div>
-    <div class="header-right">
-      <!-- Remove the Home button -->
-      <button routerLink="/about">About</button>
-      <button routerLink="/work">Work</button>
+    <!-- Work Tab -->
+    <div class="header-link work-link">
+      <a routerLink="/work" title="Work">
+        <div class="image-wrapper">
+          <img src="assets/desktop.png" alt="Work">
+        </div>
+        <span>Work</span>
+      </a>
     </div>
-  </header>
-  
+    <!-- Thoughts Tab -->
+    <div class="header-link thoughts-link">
+      <a routerLink="/thoughts" title="Thoughts">
+        <div class="image-wrapper">
+          <img src="assets/thoughts.png" alt="Thoughts">
+        </div>
+        <span>Thoughts</span>
+      </a>
+    </div>
+  </div>
+</header>

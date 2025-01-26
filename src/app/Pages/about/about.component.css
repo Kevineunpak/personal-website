@@ -1,0 +1,82 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000; /* Black background for the entire page */
+  color: #ffffff; /* White text for readability */
+  font-family: Arial, sans-serif;
+}
+
+.about-page {
+  min-height: calc(100vh - 60px - 2rem); /* Full viewport height minus header height and margin */
+  margin: 2rem; /* Match the header margin */
+  margin-top: -2rem; /* Adjust margin to connect seamlessly with the header */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: center;
+  padding: 2rem;
+  background-color: #000; /* Match header background */
+  border: 3px solid #c6a787; /* Use the same border color as the header */
+  border-top: none; /* Remove the top border to connect with the header */
+  border-radius: 0 0 15px 15px; /* Round bottom corners */
+}
+
+.about-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #00ffff;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.about-subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #c6a787;
+  margin: 1rem 0;
+}
+
+.about-content {
+  
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.about-image img {
+  height: 200px; /* Set a fixed height */
+  width: 200px; /* Set a fixed width */
+  border-radius: 50%; /* Circular image */
+  border: 3px solid #c6a787; /* Add a cyan border */
+  object-fit: cover; /* Ensure the image fits within the circle and maintains its aspect ratio */
+  object-position: center; /* Center the image within the circle */
+}
+
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.back-home-link {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #00ffff; /* Cyan link color */
+  text-decoration: none;
+  border: 2px solid #00ffff; /* Add a border for the button effect */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.back-home-link:hover {
+  background-color: #00ffff; /* Change background color on hover */
+  color: #000; /* Black text color */
+}
