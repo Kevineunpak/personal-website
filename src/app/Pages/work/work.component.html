@@ -1,18 +1,17 @@
 <div class="works-page">
-    <h1 class="works-title">WORK</h1>
-    <h2 class="works-subtitle">Exploring Projects and Creations</h2>
-    <div class="works-content">
-      <p>
-        Welcome to my works page! Here, you'll find a collection of projects that showcase my skills
-        and creativity. Each project reflects my passion for development, design, and problem-solving.
-      </p>
-      <p>
-        Whether it's building interactive web applications, crafting user-friendly interfaces, or
-        experimenting with new technologies, I strive to create impactful and engaging experiences.
-      </p>
-      <p>
-        Feel free to explore and learn more about what I do!
-      </p>
-    </div>
+  <div class="works-title-image">
+      <img src="assets/Work-title.png" alt="Work Title">
   </div>
+
+  <div class="works-separator"></div>
   
+  <div class="project-grid">
+    <app-project-card 
+      *ngFor="let project of projects"
+      [title]="project.title"
+      [description]="project.description"
+      [imageUrl]="project.imageUrl"
+      [link]="project.link">
+    </app-project-card>
+  </div>
+</div>

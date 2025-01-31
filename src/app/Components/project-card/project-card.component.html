@@ -1,1 +1,11 @@
-<p>project-card works!</p>
+<a [href]="link" class="project-card">
+    <div class="image-container">
+      <img [src]="imageUrl" [alt]="title" [class]="customClass">
+    </div>
+  
+    <div class="content">
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
+    </div>
+  </a>
+  

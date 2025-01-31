@@ -7,6 +7,24 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
+.about-title-image img {
+  width: 100%; /* Adjust width to fit your design */
+  max-width: 800px; /* Prevent image from being too large */
+  display: block;
+  margin: auto; /* Center the image horizontally */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.coke-image{
+  position: absolute;
+  top: 575px;
+  left: 77%;
+  transform: translateX(-50%); /* Ensures perfect centering */
+  max-width: 100%;
+}
+
+
 .about-page {
   min-height: calc(100vh - 60px - 2rem); /* Full viewport height minus header height and margin */
   margin: 2rem; /* Match the header margin */
@@ -38,32 +56,42 @@ body, html {
 }
 
 .about-content {
-  
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  margin: 2rem 0;
+  max-width: 800px;
+  overflow: hidden; /* Ensures the container wraps around floated elements */
+  margin-bottom: 100px;
 }
 
 .about-image img {
   height: 200px; /* Set a fixed height */
   width: 200px; /* Set a fixed width */
-  border-radius: 50%; /* Circular image */
-  border: 3px solid #c6a787; /* Add a cyan border */
-  object-fit: cover; /* Ensure the image fits within the circle and maintains its aspect ratio */
-  object-position: center; /* Center the image within the circle */
+  border-radius: 15px; /* Curved edges for a square shape */
+  border: 3px solid #c6a787; /* Add a border */
+  object-fit: cover; /* Ensure the image fits properly */
+  object-position: center; /* Center the image */
+  float: left; /* Makes text wrap around it */
+  shape-outside: border-box; /* Ensures a clean wrap */
+  margin-right: 1.5rem; /* Adds space between image and text */
 }
 
+.works-separator {
+  border: 2px solid #c6a787;
+  width: 104%;
+  max-width: 1900px;
+  margin-bottom: 50px;
+}
 
 .about-text {
-  max-width: 600px;
   text-align: left;
+  max-width: 700px;
+  margin-top: -20px;
+  font-size: 18px;
 }
 
 .about-text p {
-  margin-bottom: 1rem;
   color: #ffffff;
   line-height: 1.6;
+  margin-bottom: 1rem;
+  overflow: hidden; /* Prevents layout issues */
 }
 
 .back-home-link {
@@ -79,4 +107,13 @@ body, html {
 .back-home-link:hover {
   background-color: #00ffff; /* Change background color on hover */
   color: #000; /* Black text color */
+}
+
+
+@media (max-width: 1700px) {
+  .coke-image {
+    width: 400px; /* Shrinks image on smaller screens */
+    left: 70%; /* Centers it */
+    transform: translateX(-50%); /* Ensures perfect centering */
+  }
 }
