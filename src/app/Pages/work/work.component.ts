@@ -14,38 +14,38 @@ export class WorkComponent {
     { 
       title: 'Tale Bets', 
       description: 'A marketplace for sports betting cappers to create a community', 
-      imageUrl: 'assets/tale.png', 
+      imageUrl: 'https://kevineunpak.github.io/personal-website/assets/tale.png', 
       link: 'https://talebets.com', 
       customClass: 'tale-image'
     },
     { 
       title: 'InTheBlock', 
       description: 'App Store application that lets college kids find cheap eats', 
-      imageUrl: 'assets/InTheBlock.png', 
+      imageUrl: 'https://kevineunpak.github.io/personal-website/assets/InTheBlock.png', 
       link: 'https://apps.apple.com/us/app/intheblock/id6464686322' 
     },
     { 
       title: 'Food Rescue Hero', 
       description: 'Classification Machine Learning Model', 
-      imageUrl: 'assets/food-rescue.png', 
+      imageUrl: 'https://kevineunpak.github.io/personal-website/assets/food-rescue.png', 
       link: 'https://airportcod.es' 
     },
     { 
       title: 'Airport Codes', 
       description: 'Aesthetic visualization of airport codes', 
-      imageUrl: 'assets/netflix.jpg', 
+      imageUrl: 'https://kevineunpak.github.io/personal-website/assets/netflix.jpg', 
       link: 'https://airportcod.es' 
     },
     { 
       title: 'Airport Codes', 
       description: 'Aesthetic visualization of airport codes', 
-      imageUrl: 'assets/netflix.jpg', 
+      imageUrl: 'https://kevineunpak.github.io/personal-website/assets/netflix.jpg', 
       link: 'https://airportcod.es' 
     },
     { 
       title: 'Airport Codes', 
       description: 'Aesthetic visualization of airport codes', 
-      imageUrl: 'assets/netflix.jpg', 
+      imageUrl: 'https://kevineunpak.github.io/personal-website/assets/netflix.jpg', 
       link: 'https://airportcod.es' 
     }
   ];
