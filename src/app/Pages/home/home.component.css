@@ -1,9 +1,10 @@
-  html, body {
-    height: 100%; /* Ensure html and body occupy full height of viewport */
-    margin: 0; /* Remove default margin */
-    overflow: hidden; /* Prevent scrolling */
-    background-color: #000000; /* Black background */
-    color: #ffffff; /* Default text color */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+    color: #ffffff;
   }
 
   .homepage-container {
@@ -12,112 +13,262 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh; /* Use viewport height for full-screen background */
-    width: 100vw; /* Ensure it takes up the full width of the screen */
-    background-color: #000000; /* Dark background */
-    color: #ffffff; /* Neon text color */
+    height: 100vh;
+    /* Use viewport height for full-screen background */
+    width: 100vw;
+    /* Ensure it takes up the full width of the screen */
+    background-color: #000000;
+    /* Dark background */
+    color: #ffffff;
+    /* Neon text color */
   }
-    
-    .main-title {
+
+  .main-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .icon-links {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 80px;
+    /* Adjust spacing between icons */
+  }
+
+  .about-icon {
+    position: absolute;
+    top: -400px;
+    /* Move the entire icon (text + image) */
+    left: -400px;
+    /* Move the entire icon (text + image) */
+    transform: rotate(-5deg);
+    /* Rotate the entire icon */
+    text-align: center;
+    /* Center-align the text */
+  }
+
+  .about-icon img {
+    display: block;
+    /* Ensure the image is block-level to separate it from the text */
+    margin: 0 auto;
+    /* Center the image */
+  }
+
+  .about-icon span {
+    display: block;
+    /* Ensure the text stays below the image */
+    margin-top: 5px;
+    /* Add space between the image and text */
+  }
+
+
+  .work-icon {
+    position: absolute;
+    top: -385;
+    left: 190;
+    transform: rotate(-5deg);
+  }
+
+  .thoughts-icon {
+    position: absolute;
+    top: -390;
+    /* Adjust to position the Thoughts icon vertically */
+    left: 325;
+    /* Adjust to position the Thoughts icon horizontally */
+    transform: rotate(5deg);
+    /* Optional: Rotate slightly */
+    text-align: center;
+    /* Center-align the text below the icon */
+  }
+
+  .thoughts-icon img {
+    display: block;
+    /* Ensure the image is block-level to separate it from the text */
+    margin: 0 auto;
+    /* Center the image */
+  }
+
+  .thoughts-icon span {
+    display: block;
+    /* Ensure the text stays below the image */
+    margin-top: 5px;
+    /* Add space between the image and text */
+  }
+
+  .icon img {
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+  }
+
+  .icon span {
+    font-size: 1.5rem;
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .chill-image {
+    position: absolute;
+    /* Position independently of other elements */
+    top: 560;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center based on image dimensions */
+  }
+
+  .chill-image img {
+    width: 600px;
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: 1024px) {
+    .icon-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .icon img {
+      width: 90px;
+      height: 90px;
+    }
+
+    .main-title img{
       font-size: 4rem;
       font-weight: bold;
       margin-bottom: 10px;
-    }
-    
-    .subtitle {
-      font-size: 1.5rem;
-      margin-bottom: 30px;
-    }
-    
-    .icon-links {
-      display: flex;
-      position: relative;
-      justify-content: center;
-      gap: 80px; /* Adjust spacing between icons */
-    }
-
-    .about-icon {
-      position: absolute;
-      top: -400px; /* Move the entire icon (text + image) */
-      left: -400px; /* Move the entire icon (text + image) */
-      transform: rotate(-5deg); /* Rotate the entire icon */
-      text-align: center; /* Center-align the text */
-    }
-    
-    .about-icon img {
-      display: block; /* Ensure the image is block-level to separate it from the text */
-      margin: 0 auto; /* Center the image */
-    }
-    
-    .about-icon span {
-      display: block; /* Ensure the text stays below the image */
-      margin-top: 5px; /* Add space between the image and text */
-    }
-    
-    
-    .work-icon {
-      position: absolute;
-      top: -385;
-      left: 190;
-      transform: rotate(-5deg);
+      width: 90%;
+      height: 90%;
     }
 
     .thoughts-icon {
       position: absolute;
-      top: -390; /* Adjust to position the Thoughts icon vertically */
-      left: 325; /* Adjust to position the Thoughts icon horizontally */
-      transform: rotate(5deg); /* Optional: Rotate slightly */
-      text-align: center; /* Center-align the text below the icon */
-    }
-    
-    .thoughts-icon img {
-      display: block; /* Ensure the image is block-level to separate it from the text */
-      margin: 0 auto; /* Center the image */
-    }
-    
-    .thoughts-icon span {
-      display: block; /* Ensure the text stays below the image */
-      margin-top: 5px; /* Add space between the image and text */
+      top: -360;
+      left: 235;
+      transform: rotate(5deg);
+      text-align: center;
     }
 
-    .icon img {
-      width: 110px;
-      height: 110px;
-      margin-top: 10px;
+    .work-icon {
+      position: absolute;
+      top: -355;
+      left: 110;
+      transform: rotate(-5deg);
     }
-    
-    .icon span {
-      font-size: 1.5rem;
+
+    .about-icon {
+      position: absolute;
+      top: -375px;
+      left: -300px;
+      transform: rotate(-5deg);
+      text-align: center;
     }
-    
-    .icon:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s ease-in-out;
+
+    .chill-image img {
+      width: 500px;
+      height: auto;
+      display: block;
     }
 
     .chill-image {
-      position: absolute; /* Position independently of other elements */
-      top: 560;
+      position: absolute;
+      /* Position independently of other elements */
+      top: 520;
       left: 50%;
-      transform: translate(-50%, -50%); /* Center based on image dimensions */
+      transform: translate(-50%, -50%);
+      /* Center based on image dimensions */
     }
-    
+  }
+
+  /* Adjust for smaller screens */
+  @media (max-width: 600px) {
+    .icon-links {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .icon img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .main-title img{
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      width: 90%;
+      height: 90%;
+    }
+
+    .thoughts-icon {
+      position: absolute;
+      top: -225;
+      left: 140;
+      transform: rotate(5deg);
+      text-align: center;
+    }
+
+    .thoughts-icon span {
+      display: block;
+      /* Ensure the text stays below the image */
+      margin-top: 5px;
+      font-size: 16px;
+      /* Add space between the image and text */
+    }
+
+    .work-icon {
+      position: absolute;
+      top: -230;
+      left: 80;
+      transform: rotate(-5deg);
+    }
+
+    .work-icon span {
+      display: block;
+      /* Ensure the text stays below the image */
+      margin-top: 5px;
+      font-size: 16px;
+      /* Add space between the image and text */
+    }
+
+    .about-icon {
+      position: absolute;
+      top: -230px;
+      left: -200px;
+      transform: rotate(-5deg);
+      text-align: center;
+    }
+
+    .about-icon span {
+      display: block;
+      /* Ensure the text stays below the image */
+      margin-top: 5px;
+      font-size: 16px;
+      /* Add space between the image and text */
+    }
+
     .chill-image img {
-      width: 600px; /* Set a fixed width to prevent large images from disrupting layout */
-      height: auto; /* Maintain aspect ratio */
+      width: 300px;
+      height: auto;
       display: block;
     }
-    
-    /* Adjust for smaller screens */
-    @media (max-width: 768px) {
-      .icon-links {
-        flex-direction: column;
-        gap: 20px;
-      }
-    
-      .icon img {
-        width: 60px;
-        height: 60px;
-      }
+
+    .chill-image {
+      position: absolute;
+      /* Position independently of other elements */
+      top: 500;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* Center based on image dimensions */
     }
-    
+  }

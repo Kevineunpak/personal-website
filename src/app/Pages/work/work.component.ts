@@ -13,7 +13,7 @@ export class WorkComponent {
   projects = [
     { 
       title: 'Tale Bets', 
-      description: 'A fake streaming service for fake movies', 
+      description: 'A marketplace for sports betting cappers to create a community', 
       imageUrl: 'assets/tale.png', 
       link: 'https://talebets.com', 
       customClass: 'tale-image'
@@ -25,9 +25,9 @@ export class WorkComponent {
       link: 'https://apps.apple.com/us/app/intheblock/id6464686322' 
     },
     { 
-      title: 'Airport Codes', 
-      description: 'Aesthetic visualization of airport codes', 
-      imageUrl: 'assets/netflix.jpg', 
+      title: 'Food Rescue Hero', 
+      description: 'Classification Machine Learning Model', 
+      imageUrl: 'assets/food-rescue.png', 
       link: 'https://airportcod.es' 
     },
     { 

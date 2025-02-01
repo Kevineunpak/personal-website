@@ -59,3 +59,22 @@ body, html {
       grid-template-columns: repeat(3, 1fr); /* ✅ Exactly 3 columns */
   }
 }
+
+@media (max-width: 500px) {  /* Apply when the screen is large */
+  .project-grid {
+      grid-template-columns: repeat(1, 1fr); /* ✅ Exactly 3 columns */
+  }
+
+  .project-grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 90vw;
+    max-width: 300px;
+  }
+
+
+}
