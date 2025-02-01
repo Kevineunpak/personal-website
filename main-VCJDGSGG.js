@@ -35331,7 +35331,7 @@ var HeaderComponent = class _HeaderComponent {
   static \u0275fac = function HeaderComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HeaderComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HeaderComponent, selectors: [["app-header"]], decls: 25, vars: 0, consts: [[1, "header-left"], [1, "name"], ["routerLink", "/"], ["src", "https://kevineunpak.github.io/personal-website/assets/Kevin-Pak.png", "alt", "Kevin Pak"], [1, "header-right"], [1, "header-link", "about-link"], ["routerLink", "/about", "title", "About"], [1, "image-wrapper"], ["src", "assets/about.png", "alt", "About"], [1, "header-link", "work-link"], ["routerLink", "/work", "title", "Work"], ["src", "assets/desktop.png", "alt", "Work"], [1, "header-link", "thoughts-link"], ["routerLink", "/thoughts", "title", "Thoughts"], ["src", "assets/thoughts.png", "alt", "Thoughts"]], template: function HeaderComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HeaderComponent, selectors: [["app-header"]], decls: 25, vars: 0, consts: [[1, "header-left"], [1, "name"], ["routerLink", "/"], ["src", "https://kevineunpak.github.io/personal-website/assets/Kevin-Pak.png", "alt", "Kevin Pak"], [1, "header-right"], [1, "header-link", "about-link"], ["routerLink", "/about", "title", "About"], [1, "image-wrapper"], ["src", "https://kevineunpak.github.io/personal-website/assets/about.png", "alt", "About"], [1, "header-link", "work-link"], ["routerLink", "/work", "title", "Work"], ["src", "https://kevineunpak.github.io/personal-website/assets/desktop.png", "alt", "Work"], [1, "header-link", "thoughts-link"], ["routerLink", "/thoughts", "title", "Thoughts"], ["src", "https://kevineunpak.github.io/personal-website/assets/thoughts.png", "alt", "Thoughts"]], template: function HeaderComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "header")(1, "div", 0)(2, "h1")(3, "div", 1)(4, "a", 2);
       \u0275\u0275element(5, "img", 3);
@@ -35400,7 +35400,7 @@ var HomeComponent = class _HomeComponent {
   static \u0275fac = function HomeComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HomeComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], decls: 18, vars: 0, consts: [[1, "homepage-container"], [1, "main-title"], ["src", "assets/Kevin-Pak.png", "alt", "Kevin Pak"], [1, "icon-links"], ["routerLink", "/about", "title", "About", 1, "icon", "about-icon"], ["src", "assets/about.png", "alt", "About"], ["routerLink", "/work", "title", "Work", 1, "icon", "work-icon"], ["src", "assets/desktop.png", "alt", "Work"], ["routerLink", "/thoughts", "title", "Thoughts", 1, "icon", "thoughts-icon"], ["src", "assets/thoughts.png", "alt", "Thoughts"], [1, "chill-image"], ["src", "assets/Chill.png", "alt", "Chill"]], template: function HomeComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], decls: 18, vars: 0, consts: [[1, "homepage-container"], [1, "main-title"], ["src", "https://kevineunpak.github.io/personal-website/assets/Kevin-Pak.png", "alt", "Kevin Pak"], [1, "icon-links"], ["routerLink", "/about", "title", "About", 1, "icon", "about-icon"], ["src", "https://kevineunpak.github.io/personal-website/assets/about.png", "alt", "About"], ["routerLink", "/work", "title", "Work", 1, "icon", "work-icon"], ["src", "https://kevineunpak.github.io/personal-website/assets/desktop.png", "alt", "Work"], ["routerLink", "/thoughts", "title", "Thoughts", 1, "icon", "thoughts-icon"], ["src", "https://kevineunpak.github.io/personal-website/assets/thoughts.png", "alt", "Thoughts"], [1, "chill-image"], ["src", "https://kevineunpak.github.io/personal-website/assets/Chill.png", "alt", "Chill"]], template: function HomeComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "div", 1);
       \u0275\u0275element(2, "img", 2);
@@ -35435,7 +35435,7 @@ var AboutComponent = class _AboutComponent {
   static \u0275fac = function AboutComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AboutComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AboutComponent, selectors: [["app-about"]], decls: 23, vars: 0, consts: [[1, "about-page"], [1, "about-title-image"], ["src", "assets/About-title.png", "alt", "About Title"], [1, "works-separator"], [1, "about-content"], [1, "about-image"], ["src", "assets/kevin-head.jpeg", "alt", "Profile Picture"], [1, "coke-image"], ["src", "assets/coke-zero.gif", "alt", "coke"], [1, "about-text"]], template: function AboutComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AboutComponent, selectors: [["app-about"]], decls: 23, vars: 0, consts: [[1, "about-page"], [1, "about-title-image"], ["src", "https://kevineunpak.github.io/personal-website/assets/About-title.png", "alt", "About Title"], [1, "works-separator"], [1, "about-content"], [1, "about-image"], ["src", "https://kevineunpak.github.io/personal-website/assets/kevin-head.jpeg", "alt", "Profile Picture"], [1, "coke-image"], ["src", "https://kevineunpak.github.io/personal-website/assets/coke-zero.gif", "alt", "coke"], [1, "about-text"]], template: function AboutComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "div", 1);
       \u0275\u0275element(2, "img", 2);
@@ -35526,45 +35526,45 @@ var WorkComponent = class _WorkComponent {
     {
       title: "Tale Bets",
       description: "A marketplace for sports betting cappers to create a community",
-      imageUrl: "assets/tale.png",
+      imageUrl: "https://kevineunpak.github.io/personal-website/assets/tale.png",
       link: "https://talebets.com",
       customClass: "tale-image"
     },
     {
       title: "InTheBlock",
       description: "App Store application that lets college kids find cheap eats",
-      imageUrl: "assets/InTheBlock.png",
+      imageUrl: "https://kevineunpak.github.io/personal-website/assets/InTheBlock.png",
       link: "https://apps.apple.com/us/app/intheblock/id6464686322"
     },
     {
       title: "Food Rescue Hero",
       description: "Classification Machine Learning Model",
-      imageUrl: "assets/food-rescue.png",
+      imageUrl: "https://kevineunpak.github.io/personal-website/assets/food-rescue.png",
       link: "https://airportcod.es"
     },
     {
       title: "Airport Codes",
       description: "Aesthetic visualization of airport codes",
-      imageUrl: "assets/netflix.jpg",
+      imageUrl: "https://kevineunpak.github.io/personal-website/assets/netflix.jpg",
       link: "https://airportcod.es"
     },
     {
       title: "Airport Codes",
       description: "Aesthetic visualization of airport codes",
-      imageUrl: "assets/netflix.jpg",
+      imageUrl: "https://kevineunpak.github.io/personal-website/assets/netflix.jpg",
       link: "https://airportcod.es"
     },
     {
       title: "Airport Codes",
       description: "Aesthetic visualization of airport codes",
-      imageUrl: "assets/netflix.jpg",
+      imageUrl: "https://kevineunpak.github.io/personal-website/assets/netflix.jpg",
       link: "https://airportcod.es"
     }
   ];
   static \u0275fac = function WorkComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _WorkComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _WorkComponent, selectors: [["app-work"]], decls: 6, vars: 1, consts: [[1, "works-page"], [1, "works-title-image"], ["src", "assets/Work-title.png", "alt", "Work Title"], [1, "works-separator"], [1, "project-grid"], [3, "title", "description", "imageUrl", "link", 4, "ngFor", "ngForOf"], [3, "title", "description", "imageUrl", "link"]], template: function WorkComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _WorkComponent, selectors: [["app-work"]], decls: 6, vars: 1, consts: [[1, "works-page"], [1, "works-title-image"], ["src", "https://kevineunpak.github.io/personal-website/assets/Work-title.png", "alt", "Work Title"], [1, "works-separator"], [1, "project-grid"], [3, "title", "description", "imageUrl", "link", 4, "ngFor", "ngForOf"], [3, "title", "description", "imageUrl", "link"]], template: function WorkComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "div", 1);
       \u0275\u0275element(2, "img", 2);
