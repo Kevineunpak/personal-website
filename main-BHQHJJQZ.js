@@ -35544,25 +35544,7 @@ var WorkComponent = class _WorkComponent {
       title: "Food Rescue Hero",
       description: "Classification Machine Learning Model",
       imageUrl: "https://kevineunpak.github.io/personal-website/assets/food-rescue.png",
-      link: "https://airportcod.es"
-    },
-    {
-      title: "Airport Codes",
-      description: "Aesthetic visualization of airport codes",
-      imageUrl: "https://kevineunpak.github.io/personal-website/assets/netflix.jpg",
-      link: "https://airportcod.es"
-    },
-    {
-      title: "Airport Codes",
-      description: "Aesthetic visualization of airport codes",
-      imageUrl: "https://kevineunpak.github.io/personal-website/assets/netflix.jpg",
-      link: "https://airportcod.es"
-    },
-    {
-      title: "Airport Codes",
-      description: "Aesthetic visualization of airport codes",
-      imageUrl: "https://kevineunpak.github.io/personal-website/assets/netflix.jpg",
-      link: "https://airportcod.es"
+      link: "https://foodrescuehero.org/"
     }
   ];
   static \u0275fac = function WorkComponent_Factory(__ngFactoryType__) {
