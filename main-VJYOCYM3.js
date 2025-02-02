@@ -35483,16 +35483,18 @@ var ProjectCardComponent = class _ProjectCardComponent {
   static \u0275fac = function ProjectCardComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _ProjectCardComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectCardComponent, selectors: [["app-project-card"]], inputs: { title: "title", description: "description", imageUrl: "imageUrl", link: "link", customClass: "customClass" }, decls: 8, vars: 7, consts: [[1, "project-card", 3, "href"], [1, "image-container"], [3, "src", "alt"], [1, "content"]], template: function ProjectCardComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProjectCardComponent, selectors: [["app-project-card"]], inputs: { title: "title", description: "description", imageUrl: "imageUrl", link: "link", customClass: "customClass" }, decls: 10, vars: 8, consts: [[1, "project-card", 3, "href"], [1, "image-container"], [3, "src", "alt"], [1, "content"]], template: function ProjectCardComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "a", 0)(1, "div", 1);
       \u0275\u0275element(2, "img", 2);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(3, "div", 3)(4, "h3");
-      \u0275\u0275text(5);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(6, "p");
+      \u0275\u0275elementStart(3, "p");
+      \u0275\u0275text(4);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(5, "div", 3)(6, "h3");
       \u0275\u0275text(7);
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(8, "p");
+      \u0275\u0275text(9);
       \u0275\u0275elementEnd()()();
     }
     if (rf & 2) {
@@ -35500,12 +35502,14 @@ var ProjectCardComponent = class _ProjectCardComponent {
       \u0275\u0275advance(2);
       \u0275\u0275classMap(ctx.customClass);
       \u0275\u0275property("src", ctx.imageUrl, \u0275\u0275sanitizeUrl)("alt", ctx.title);
+      \u0275\u0275advance(2);
+      \u0275\u0275textInterpolate1("Applied class: ", ctx.customClass, "");
       \u0275\u0275advance(3);
       \u0275\u0275textInterpolate(ctx.title);
       \u0275\u0275advance(2);
       \u0275\u0275textInterpolate(ctx.description);
     }
-  }, styles: ["\n\n.project-card[_ngcontent-%COMP%] {\n  display: block;\n  text-decoration: none;\n  color: inherit;\n  background: var(--card-bg);\n  border-radius: 8px;\n  overflow: hidden;\n  transition: transform 0.2s ease-in-out;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\n  border: 2px dashed rgba(255, 255, 255, 0.5);\n  outline-offset: 9px;\n}\n.project-card[_ngcontent-%COMP%]:hover {\n  transform: scale(1.083);\n}\n.image-container[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 200px;\n  overflow: hidden;\n}\n.image-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n.image-container[_ngcontent-%COMP%]   img.tale-image[_ngcontent-%COMP%] {\n  width: 60%;\n  max-height: 150px;\n  object-fit: contain;\n  display: block;\n  margin: 0 auto;\n}\n.content[_ngcontent-%COMP%] {\n  padding: 12px;\n  text-align: center;\n}\nh3[_ngcontent-%COMP%] {\n  margin: 8px 0;\n  font-size: 1.2rem;\n}\np[_ngcontent-%COMP%] {\n  font-size: 0.9rem;\n  opacity: 0.8;\n}"] });
+  }, styles: ["\n\n.project-card[_ngcontent-%COMP%] {\n  display: block;\n  text-decoration: none;\n  color: inherit;\n  background: var(--card-bg);\n  border-radius: 8px;\n  overflow: hidden;\n  transition: transform 0.2s ease-in-out;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\n  border: 2px dashed rgba(255, 255, 255, 0.5);\n  outline-offset: 9px;\n}\n.project-card[_ngcontent-%COMP%]:hover {\n  transform: scale(1.083);\n}\n.image-container[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 200px;\n  overflow: hidden;\n}\n.image-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  object-fit: contain;\n  background-color: black;\n}\n.content[_ngcontent-%COMP%] {\n  padding: 12px;\n  text-align: center;\n}\nh3[_ngcontent-%COMP%] {\n  margin: 8px 0;\n  font-size: 1.2rem;\n}\np[_ngcontent-%COMP%] {\n  font-size: 0.9rem;\n  opacity: 0.8;\n}"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(ProjectCardComponent, { className: "ProjectCardComponent", filePath: "src/app/components/project-card/project-card.component.ts", lineNumber: 9 });
